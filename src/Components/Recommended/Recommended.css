@@ -1,4 +1,4 @@
-/* .recommend {
+.recommend {
     flex: 0.35;
     padding: 20px;
   }
@@ -27,66 +27,11 @@
     margin: 0 0 5px;
     color: #000;
   }
-  
+  h4,p{
+    color: black;
+  }
   .video-info p {
     margin: 2px 0;
     font-size: 13px;
     color: #606060;
-  }
-   */
-
-   .recommend {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .side-video-list {
-    display: flex;
-    flex-direction: column;
-    width: 230px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .video-thumbnail {
-    width: 100%;
-    height: 130px;
-    object-fit: cover;
-  }
-  
-  .vid-info {
-    padding: 10px;
-  }
-  
-  .vid-info h4 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  
-  .vid-info p {
-    font-size: 14px;
-    color: #555;
-    margin: 2px 0;
-  }
-  
-  .side-video-list:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  @media (max-width:900px){
-   
-  .recommend{
-    flex-basis: 100%;
-  }
   }
